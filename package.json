@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple Hello World Node App",
   "engines": {
-          "node":   "12.x"
+    "node": "12.x"
   },
   "main": "app.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Virtual-Crash/node-hello-world/issues"
   },
-  "homepage": "https://github.com/Virtual-Crash/node-hello-world#readme"
+  "homepage": "https://github.com/Virtual-Crash/node-hello-world#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
